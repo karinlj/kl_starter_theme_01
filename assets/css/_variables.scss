@@ -1,0 +1,82 @@
+//$xs-max: 575.9px;
+$xs-max: 480px;
+$sm-min: 576px;
+
+$sm-max: 767.9px;
+$md-min: 768px;
+
+$md-max: 991.9px;
+$lg-min: 992px;
+
+$lg-max: 1199.9px;
+$xl-min: 1200px;
+
+$xl-max: 1309px;
+$max-page-width: 1380px;
+
+/* colors */
+$darkGray: #131720;
+$blue: #1368e7;
+$blueLight: #4dbeff;
+$turqoise: #b8e0d7;
+$turqoiseLight: #e6f4f1;
+
+$themecolorPink: #ff5c9f;
+$themecolorLightGreen: #daff7d;
+$themecolorGreen: #00a87b;
+$themecolorGreenDarker: #009970;
+$themecolorGreenDark: #004d38; //#174845; #12312b;
+$purpleLight: #9966ff;
+$lightgrey: #f9f9f9;
+$themeBorderColor: #e6e6e6;
+
+//text color
+$headingcolor: #212735;
+$themecolor: $headingcolor;
+$navcolor: $themecolor;
+$linkcolor: #00a2ff;
+
+//outline
+$themecolorLight: #66758d;
+$themecolorLightest: #a6b0bf;
+
+//other
+// $themefont: "Roboto", "Helvetica", sans-serif;
+$themefont: "Manrope", "Helvetica", sans-serif;
+
+$iconsize: 1.6rem;
+$themeBorder_radius: 24px;
+$btnBorder_radius: 10px;
+// $themeBorder_radius: 0;
+// $btnBorder_radius: 40px;
+
+//shadows
+$themeBox_shadow: 0px 2px 10px rgb(0 0 0 / 20%);
+
+//overlay colors
+// $colorDarkOverlayColor: linear-gradient(to right bottom, #131720, #1a1f2b, #212837, #283043, #303950);
+$colorDarkOverlayColor: linear-gradient(
+  to right,
+  #1a0d00,
+  #201100,
+  #261400,
+  #2d1700,
+  #331a00
+);
+// $themecolorLightOverlay: rgba(255, 255, 255, 0.3);
+$whiteOverlayColor: linear-gradient(
+  to right bottom,
+  #f2f2f2,
+  #f5f5f5,
+  #f8f8f8,
+  #fcfcfc,
+  #ffffff
+);
+$greenOverlayColor: linear-gradient(
+  to right bottom,
+  #004d38,
+  #005941,
+  #00664b,
+  #007354,
+  #00805e
+);

@@ -1,0 +1,44 @@
+//Funktioner
+@function black($opacity) {
+  @return rgba(0, 0, 0, $opacity);
+}
+
+@function white($opacity) {
+  @return rgba(255, 255, 255, $opacity);
+}
+
+//För vertikal centrering
+@mixin translate($x, $y) {
+  -webkit-transform: translate($x, $y);
+  -ms-transform: translate($x, $y);
+  transform: translate($x, $y);
+}
+
+//Transform scale
+@mixin scale($height, $width) {
+  -ms-transform: scale($height, $width);
+  /* IE 9 */
+  -webkit-transform: scale($height, $width);
+  /* Safari */
+  transform: scale($height, $width);
+}
+
+@mixin overlay() {
+  opacity: 0.30;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: block;
+}
+@mixin overlay_darker() {
+  @include overlay();
+  opacity: 0.50;
+
+}
+@mixin overlay_light() {
+  @include overlay();
+  opacity: 0.15;
+}
