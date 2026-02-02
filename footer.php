@@ -106,7 +106,7 @@
         <div class="row align-items-start">
             <div class="col-md-12 col-xl-6">
                 <p>
-                    Org. nr: 559153-4986</br>
+                    Org. nr: XXXXX-XXX</br>
                     Registrerade för F-skatt
                 </p>
 

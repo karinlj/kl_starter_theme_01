@@ -84,7 +84,7 @@
                 </div>
             </div>
 
-             <div class="col-md-112 col-xl-8">
+             <div class="col-md-12 col-xl-8">
                 <div class="row align-items-start links">
                     <?php
                     if (function_exists('acf_add_options_page')) {
